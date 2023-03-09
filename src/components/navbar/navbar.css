@@ -1,0 +1,55 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    border-bottom: 2px solid #9B998F;
+}
+
+.n-left{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.n-brand{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #474643;
+}
+
+.n-right{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.n-menu{
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-item{
+    color:#9B998F;
+    cursor: pointer;
+}
+.menu-item:nth-of-type(1){
+    color: #474643;
+}
+
+.n-icons{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.n-icons span{
+    cursor: pointer;
+}
+
+.n-icons span i{
+    font-size: 1.5rem;    
+}
