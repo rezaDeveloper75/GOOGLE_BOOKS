@@ -1,8 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Card from '../card/card';
 import './books.css';
 
 const Books = () => {
-    return ( <></> );
+    return ( 
+        <div>
+            <span className="result">Search result</span>
+            <div className="books">
+                <Card/>
+            </div>
+        </div>
+        
+        );
 }
  
 export default Books;

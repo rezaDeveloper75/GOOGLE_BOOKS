@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 15px 10px;
+    text-align: center;
+    gap: 1rem;
+    box-shadow: 0px 19px 60px rgb(0 0 0 / 30%);
+    border-radius: 4px;
+}
+
+.card> img{
+    width: 140px;
+    height: 160px;
+    border-radius: 4px;
+    box-shadow: 0px 19px 60px rgb(0 0 0 / 10%);
+}
+
+.c-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.c-description{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.c-price{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.c-icons{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.c-icons>a>i{
+    font-size: 1.7rem;
+}
