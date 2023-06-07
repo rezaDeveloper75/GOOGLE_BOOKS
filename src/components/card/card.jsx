@@ -22,11 +22,11 @@ const Card = () => {
                 <div className="card">
                     <img src={thumbnail} alt="" />
                     <div className="c-title">
-                        {item.volumeInfo.title}
+                        {item.volumeInfo.title.length < 30 ? item.volumeInfo.title : <span>{item.volumeInfo.title.slice(0,31)} ...</span>}
                     </div>
                     <div className="c-description">
                         {
-                            des.length > 400 ? <span>{des.slice(0,101)} ...</span> : des
+                            des.length > 200 ? <span>{des.slice(0,51)} ...</span> : des
                         }
                     </div>
                     <div className="c-price">

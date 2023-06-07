@@ -9,6 +9,12 @@
     gap: 1rem;
     box-shadow: 0px 19px 60px rgb(0 0 0 / 30%);
     border-radius: 4px;
+    transition: 0.5s transform;
+}
+
+.card:hover{
+    transform: scale(0.95);
+    background: wheat;
 }
 
 .card> img{
